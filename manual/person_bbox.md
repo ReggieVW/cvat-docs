@@ -35,3 +35,5 @@ Usage examples:
     into one.
 
     ![image](https://user-images.githubusercontent.com/35894891/170968838-ef104d4f-f749-4703-9ff5-84fce598caf5.png)
+    
+    Click Merge button or press M to apply changes
