@@ -6,21 +6,29 @@ Usage examples:
 
     ![image](https://user-images.githubusercontent.com/35894891/170964069-a499420a-f1e8-4815-92e0-f7ca2709d937.png)
 
--   Creating a track for an object:
-    - Create a ``Rectangle`` in ``Track mode`` by clicking on ``Track``.
+- Create a ``Rectangle`` in ``Track mode`` by clicking on ``Track``.
 
-      ![image](https://user-images.githubusercontent.com/35894891/170965613-ce958d91-9032-418a-9add-65bdd8572456.png)
+  ![image](https://user-images.githubusercontent.com/35894891/170965613-ce958d91-9032-418a-9add-65bdd8572456.png)
+      
+- A red guideline will be shown
+    
+  ![image](https://user-images.githubusercontent.com/35894891/171143541-bf2aa35d-71ab-487c-981f-03e03ffd048b.png)
+      
+- Click on the left mouse button, expand the rectangle over what you want to select and click again.
 
-    - In ``Track mode`` the rectangle will be automatically interpolated on the next frames. 
-    - If the object starts to change its position, you need to modify the rectangle where it happens.
+  ![image](https://user-images.githubusercontent.com/35894891/171145155-a629d26b-21f4-42f4-906f-40e60b75dc83.png)
+
+- In ``Track mode`` the rectangle will be automatically interpolated on the next frames. 
+
+- If the object starts to change its position, you need to modify the rectangle where it happens.
       <b>It isn't necessary to change the rectangle on each frame</b>, simply update several keyframes
       and the frames between them will be interpolated automatically.
-      ![image](https://user-images.githubusercontent.com/35894891/170966831-766490d6-f4ef-4169-b50a-f69a5c71c667.png)
+     ![image](https://user-images.githubusercontent.com/35894891/171150304-ca11d723-66f0-479f-b9dd-d21476c6924f.png)
 
 -   When the annotated object disappears or becomes too small, you need to
     finish the track. You have to choose ``Outside Property``, shortcut ``O``.
-
-    ![image](https://user-images.githubusercontent.com/35894891/170967820-cc371107-1030-4597-abe7-e0e1176e50e0.png)
+    
+    ![image](https://user-images.githubusercontent.com/35894891/171151873-8cbb49a2-48bf-43fd-8501-9b146c90d6ee.png)
 
 -   If the object isn't visible on a couple of frames and then appears again,
     you can use the ``Merge`` feature to merge several individual tracks
