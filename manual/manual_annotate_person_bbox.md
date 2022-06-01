@@ -1,5 +1,4 @@
-### Track mode (basics)
-Usage examples:
+## Track mode 
 
 -   You need to select a ``Rectangle`` on the sidebar,
     in the appearing form, select the desired ``Label`` and the ``Drawing method``.
