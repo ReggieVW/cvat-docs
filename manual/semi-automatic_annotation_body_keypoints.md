@@ -3,14 +3,19 @@
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
 ## Exporting person bounding box annotations
-Click "Export task dataset" and then choose "CVAT for video"
+Click "Export task dataset" and then choose "CVAT for video". Convert the CVAT XML into JSON.
+```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
-
-python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path Vechtpartij_Markt_07_00_to_09_00.mp4 --out-video-root vis_results --json-path coco.json
-
+```
+Add the body keypoints by executing following script. 
+```
+python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILEPATH> --out-video-root vis_results --json-path coco.json
+```
+Convert the JSON into CVAT XML.
+```
 python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
-
-Click "Upload annotations" and then choose "CVAT"
+```
+Click "Upload annotations" and then choose "CVAT" to upload the XML
 
 ## Shape grouping
 Points are automatically grouped — all points are linked to a certain person.
