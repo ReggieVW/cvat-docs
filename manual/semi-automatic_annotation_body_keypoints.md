@@ -2,7 +2,7 @@
 ## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
-## Exporting person bounding box annotations
+## Add automatic body keypoints to person bounding box annotations
 Click "Export task dataset" and then choose "CVAT for video". Convert the CVAT XML into JSON.
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
@@ -15,10 +15,10 @@ Convert the JSON into CVAT XML.
 ```
 python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
 ```
-Click "Upload annotations" and then choose "CVAT" to upload the XML
+Click "Upload annotations" and then choose "CVAT" to upload the XML.
 
 ## Shape grouping
-Points are automatically grouped — all points are linked to a certain person.
+Points are automatically grouped — all points with the same colour are linked to a certain person.
 ![image](https://user-images.githubusercontent.com/35894891/171384083-5e061097-691f-47a4-a970-9bcab0ddb7a9.png)
 
 ## Annotation with points
