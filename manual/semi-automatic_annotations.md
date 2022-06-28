@@ -37,13 +37,14 @@ HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-
 
 ## Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
 Remark: This task can only be executed after task annotation body bounding boxes is executed.
+
 You first want to click "Save". CVAT does not automatically save work. Then click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
 <img src="https://user-images.githubusercontent.com/35894891/176140939-559e8601-32a8-4c90-ad14-616d2e6ebd37.png" width="400" height="400" />
 
 <img src="https://user-images.githubusercontent.com/35894891/176141285-82bc5ad4-ef06-4bef-a43b-c2ca4cc567a3.png" width="600" height="400" />
 
-Convert the CVAT XML into JSON.
+Convert the CVAT XML into JSON. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
@@ -55,6 +56,95 @@ python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown
 Convert the JSON into CVAT XML.
 ```
 python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
+```
+You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these.
+```
+[
+  {
+    "name": "left_shoulder",
+    "id": 7,
+    "color": "#33ddff",
+    "attributes": []
+  },
+  {
+    "name": "right_shoulder",
+    "id": 8,
+    "color": "#83e070",
+    "attributes": []
+  },
+  {
+    "name": "right_elbow",
+    "id": 9,
+    "color": "#ff007c",
+    "attributes": []
+  },
+  {
+    "name": "left_wrist",
+    "id": 10,
+    "color": "#ff6037",
+    "attributes": []
+  },
+  {
+    "name": "right_wrist",
+    "id": 11,
+    "color": "#ddff33",
+    "attributes": []
+  },
+  {
+    "name": "left_hip",
+    "id": 12,
+    "color": "#24b353",
+    "attributes": []
+  },
+  {
+    "name": "right_hip",
+    "id": 13,
+    "color": "#b83df5",
+    "attributes": []
+  },
+  {
+    "name": "left_knee",
+    "id": 14,
+    "color": "#66ff66",
+    "attributes": []
+  },
+  {
+    "name": "right_knee",
+    "id": 15,
+    "color": "#32b7fa",
+    "attributes": []
+  },
+  {
+    "name": "left_ankle",
+    "id": 16,
+    "color": "#ffcc33",
+    "attributes": []
+  },
+  {
+    "name": "right_ankle",
+    "id": 17,
+    "color": "#83e070",
+    "attributes": []
+  },
+  {
+    "name": "nose",
+    "id": 18,
+    "color": "#fafa37",
+    "attributes": []
+  },
+  {
+    "name": "left_elbow",
+    "id": 19,
+    "color": "#8c78f0",
+    "attributes": []
+  },
+  {
+    "name": "person",
+    "id": 20,
+    "color": "#fa3253",
+    "attributes": []
+  }
+]
 ```
 Click "Upload annotations" and then choose "CVAT" to upload the XML.
 
