@@ -12,13 +12,13 @@ To launch automatic annotation, you should open the dashboard and find a task wh
 
 In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels “person”. You should connect the “person” label from the model to the “person” label in the task. Click Submit to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
 
-<img src="https://user-images.githubusercontent.com/35894891/176120074-2e87da94-dc6f-4f37-855e-0822cf93ad62.png" width="300" height="200" />
+<img src="https://user-images.githubusercontent.com/35894891/176120074-2e87da94-dc6f-4f37-855e-0822cf93ad62.png" width="600" height="400" />
 
 You can combine separate bounding boxes into tracks using the Person reidentification model. To do this, click on the automatic annotation item in the action menu again and select the model of the ReID type (in this case the Person reidentification model). You can set the following parameters:
 - Model Threshold is a maximum cosine distance between objects’ embeddings.
 - Maximum distance defines a maximum radius that an object can diverge between adjacent frames.
 
-<img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png" width="300" height="200" />
+<img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png" width="600" height="400" />
 
 The end result of an automatic annotation is an annotation with separate bounding boxes.
 <img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
@@ -26,7 +26,7 @@ The end result of an automatic annotation is an annotation with separate boundin
 ## Tracking using SiamMask
 Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame and correct the restrictive box if necessary. Labeled objects are automatically tracked when you move to the next frame. 
 
-<img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png" width="300" height="200" />
+<img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png" width="600" height="400" />
 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
@@ -37,8 +37,14 @@ HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-
 
 ## Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
 Remark: This task can only be executed after task annotation body bounding boxes is executed.
+You first want to click "Save". CVAT does not automatically save work. Then click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
-Click "Export task dataset" and then choose "CVAT for video". Convert the CVAT XML into JSON.
+<img src="https://user-images.githubusercontent.com/35894891/176140939-559e8601-32a8-4c90-ad14-616d2e6ebd37.png" width="400" height="400" />
+
+<img src="https://user-images.githubusercontent.com/35894891/176141285-82bc5ad4-ef06-4bef-a43b-c2ca4cc567a3.png" width="600" height="400" />
+
+Convert the CVAT XML into JSON.
+
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
 ```
