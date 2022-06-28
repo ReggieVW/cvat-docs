@@ -1,3 +1,26 @@
+# semi-automatic annotation body bounding boxes
+CVAT is also optimized for semi-automatic annotation that can help you speed up the process significantly. 
+
+To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
+<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png" width="800" height="400" />
+
+To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the Actions button and choose option Automatic Annotation from the dropdown menu.
+
+<img src="https://user-images.githubusercontent.com/35894891/176123597-e69e69a3-1e85-4656-b7f9-674574b12745.png" width="800" height="400" />
+
+In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels “person”. You should connect the “person” label from the model to the “person” label in the task. Click Submit to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
+
+<img src="https://user-images.githubusercontent.com/35894891/176120074-2e87da94-dc6f-4f37-855e-0822cf93ad62.png" width="300" height="200" />
+
+You can combine separate bounding boxes into tracks using the Person reidentification model. To do this, click on the automatic annotation item in the action menu again and select the model of the ReID type (in this case the Person reidentification model). You can set the following parameters:
+- Model Threshold is a maximum cosine distance between objects’ embeddings.
+- Maximum distance defines a maximum radius that an object can diverge between adjacent frames.
+
+<img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png" width="300" height="200" />
+
+The end result of an automatic annotation is an annotation with separate bounding boxes.
+<img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
+
 # semi-automatic annotation body keypoints
 ## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
