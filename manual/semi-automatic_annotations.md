@@ -49,7 +49,7 @@ Convert the CVAT XML into JSON. Further information about the conversion tool an
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
 ```
-Add the body keypoints by executing following script. 
+Add the body keypoints by executing following script. Further information about the tool and installatio https://github.com/ReggieVW/mmpose 
 ```
 python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILEPATH> --out-video-root vis_results --json-path coco.json
 ```
