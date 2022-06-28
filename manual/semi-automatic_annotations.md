@@ -1,4 +1,6 @@
 # semi-automatic annotation body bounding boxes
+
+## YOLO-v5 and Person reidentification
 CVAT is also optimized for semi-automatic annotation that can help you speed up the process significantly. 
 
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
@@ -21,11 +23,21 @@ You can combine separate bounding boxes into tracks using the Person reidentific
 The end result of an automatic annotation is an annotation with separate bounding boxes.
 <img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
 
+## Tracking using SiamMask
+Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame and correct the restrictive box if necessary. Labeled objects are automatically tracked when you move to the next frame. 
+
+<img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png" width="300" height="200" />
+
+![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
+
+
 # semi-automatic annotation body keypoints
 ## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
-## Add automatic body keypoints to person bounding box annotations
+## Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
+Remark: This task can only be executed after task annotation body bounding boxes is executed.
+
 Click "Export task dataset" and then choose "CVAT for video". Convert the CVAT XML into JSON.
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json 
