@@ -3,7 +3,7 @@
 -   You need to select a ``Rectangle`` on the sidebar,
     in the appearing form, select the desired ``Label`` and the ``Drawing method``.
 
-    ![image](https://user-images.githubusercontent.com/35894891/170964069-a499420a-f1e8-4815-92e0-f7ca2709d937.png)
+    ![image](https://user-images.githubusercontent.com/35894891/176419500-b80df927-a01c-42c3-b39f-93e9bb7e8554.png)
 
 - Create a ``Rectangle`` in ``Track mode`` by clicking on ``Track``.
 
