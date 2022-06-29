@@ -5,6 +5,7 @@
        - Tracking using SiamMask
     - [automatic annotation body keypoints](#automatic-annotation-body-keypoints)
         - HRNET
+
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
 
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
