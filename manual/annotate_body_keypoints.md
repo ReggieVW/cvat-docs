@@ -1,3 +1,4 @@
+Remark: This task can only be executed after task [automatic annotation body keypoints](automatic_annotations.md#automatic-annotation-body-keypoints) is executed.
 
 ## Shape grouping
 Points are automatically grouped — all points with the same colour are linked to a certain person.
