@@ -1,4 +1,4 @@
-Remark: This task can only be executed after task [automatic annotation body keypoints](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-body-keypoints) is executed.
+Remark: This task can only be executed after task [automatic annotation person body keypoints](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-keypoints) is executed.
 
 ## Annotation with points
 You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe. You can hide it using the Outside, move around, etc.
