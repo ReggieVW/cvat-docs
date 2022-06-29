@@ -1,9 +1,9 @@
-Remark: This task can only be executed after task [automatic annotation person body keypoints](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-keypoints) is executed.
+Remark: This can only be executed after task [automatic annotation person body keypoints](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-keypoints) is executed.
 
 The result of an automatic annotation is an annotation with bounding boxes and body keypoints.
 ![image](https://user-images.githubusercontent.com/35894891/176415761-ffcf3c86-be88-418a-affa-de74da49c7b5.png)
 
-## Manual annotation with points
+# Manual annotation with points
 You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe.
 
 ## Outside Property
