@@ -1,8 +1,10 @@
 - [User's guide]
     - [automatic annotation body bounding boxes](#automatic-annotation-body-bounding-boxes)
        - YOLO-v5 and Person reidentification 
-       - Tracking using SiamMask 
-    - [automatic annotation body keypoints (HRNET)](#automatic-annotation-body-keypoints-hrnet)
+   - [semi automatic annotation body bounding boxes](#tracking-using-siammask)
+       - Tracking using SiamMask
+    - [automatic annotation body keypoints](#automatic-annotation-body-keypoints)
+        - HRNET
 
 # automatic annotation body bounding boxes
 
@@ -29,6 +31,8 @@ You can combine separate bounding boxes into tracks using the Person reidentific
 The end result of an automatic annotation is an annotation with separate bounding boxes.
 <img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
 
+# semi automatic annotation body bounding boxes
+
 ## Tracking using SiamMask
 Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame and correct the restrictive box if necessary. Labeled objects are automatically tracked when you move to the next frame. 
 
@@ -37,9 +41,9 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
 
-# automatic annotation body keypoints (HRNET)
+# automatic annotation body keypoints 
 
-### HRNET
+## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
 ### Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
