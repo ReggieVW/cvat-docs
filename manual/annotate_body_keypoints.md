@@ -1,7 +1,7 @@
 Remark: This task can only be executed after task [automatic annotation person body keypoints](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-keypoints) is executed.
 
 ## Annotation with points
-You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe. You can hide it using the Outside, move around, etc.
+You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe. You can hide it using the Outside, move around, etc. When the annotated object disappears, you have to choose Outside Property (see picture below)
 
 ![image](https://user-images.githubusercontent.com/35894891/171391600-7cb5d041-0558-4155-842c-860ae18ec5f2.png)
 
