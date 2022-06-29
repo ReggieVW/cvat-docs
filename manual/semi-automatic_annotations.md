@@ -1,3 +1,9 @@
+- [User's guide]
+    - [semi-automatic annotation body bounding boxes](#semi-automatic-annotation-body-bounding-boxes)
+       - YOLO-v5 and Person reidentification 
+       - Tracking using SiamMask 
+    - [semi-automatic annotation body keypoints (HRNET)](#semi-automatic-annotation-body-keypoints-hrnet)
+
 # semi-automatic annotation body bounding boxes
 
 ## YOLO-v5 and Person reidentification
@@ -32,10 +38,11 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 
 
 # semi-automatic annotation body keypoints (HRNET)
-## HRNET
+
+### HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
-## Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
+### Add automatic body keypoints to person bounding box annotations (after annotations body bounding boxes)
 Remark: This task can only be executed after task annotation body bounding boxes is executed.
 
 You first want to click "Save". CVAT does not automatically save work. Then click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
