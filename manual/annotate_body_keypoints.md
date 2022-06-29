@@ -3,7 +3,7 @@ Remark: This task can only be executed after task [automatic annotation person b
 The result of an automatic annotation is an annotation with bounding boxes and body keypoints.
 ![image](https://user-images.githubusercontent.com/35894891/176415761-ffcf3c86-be88-418a-affa-de74da49c7b5.png)
 
-## Annotation with points
+## Manual annotation with points
 You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe.
 
 ## Outside Property
