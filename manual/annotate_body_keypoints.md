@@ -12,3 +12,4 @@ You can drag a point and change the position of individual points. Move the poin
 ## Swith on/off the keyframe
 You can swith of the keyframe so intermediate frames will be drawn automatically.
 ![image](https://user-images.githubusercontent.com/35894891/171388737-3f40bbee-b661-497f-9c81-f97362fcf781.png)
+ 
