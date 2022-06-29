@@ -31,7 +31,7 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
 
-# semi-automatic annotation body keypoints
+# semi-automatic annotation body keypoints (HRNET)
 ## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
 
