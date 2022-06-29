@@ -5,14 +5,14 @@
        - Tracking using SiamMask
     - [automatic annotation body keypoints](#automatic-annotation-body-keypoints)
         - HRNET
+CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
+
+To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
+<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png" width="800" height="400" />
 
 # automatic annotation body bounding boxes
 
 ## YOLO-v5 and Person reidentification
-CVAT is also optimized for semi-automatic annotation that can help you speed up the process significantly. 
-
-To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
-<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png" width="800" height="400" />
 
 To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the Actions button and choose option Automatic Annotation from the dropdown menu.
 
