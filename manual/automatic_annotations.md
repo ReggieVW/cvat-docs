@@ -1,9 +1,9 @@
 - [User's guide]
-    - [automatic annotation body bounding boxes](#automatic-annotation-body-bounding-boxes)
+    - [Automatic annotation body bounding boxes](#automatic-annotation-body-bounding-boxes)
        - YOLO-v5 and Person reidentification 
-   - [semi automatic annotation body bounding boxes](#tracking-using-siammask)
+   - [Semi automatic annotation body bounding boxes](#semi-automatic-annotation-body-bounding-boxes)
        - Tracking using SiamMask
-    - [automatic annotation body keypoints](#utomatic-annotation-body-keypoints)
+    - [Automatic annotation body keypoints](#automatic-annotation-body-keypoints)
         - HRNET
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
@@ -11,7 +11,7 @@ CVAT is also optimized for automatic annotation that can help you speed up the p
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
 <img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png" width="800" height="400" />
 
-# automatic annotation body bounding boxes
+# Automatic annotation body bounding boxes
 
 ## YOLO-v5 and Person reidentification
 
@@ -32,7 +32,7 @@ You can combine separate bounding boxes into tracks using the Person reidentific
 The end result of an automatic annotation is an annotation with separate bounding boxes.
 <img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
 
-# semi automatic annotation body bounding boxes
+# Semi automatic annotation body bounding boxes
 
 ## Tracking using SiamMask
 Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame and correct the restrictive box if necessary. Labeled objects are automatically tracked when you move to the next frame. 
@@ -42,7 +42,7 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
 
-# automatic annotation body keypoints 
+# Automatic annotation body keypoints 
 
 ## HRNET
 HRNET is a state-of-the-art algorithm human pose estimation. HRNet uses the top-down method, the network is built for estimating key points based on person bounding boxes
