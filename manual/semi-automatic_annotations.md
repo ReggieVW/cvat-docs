@@ -58,6 +58,8 @@ Convert the JSON into CVAT XML.
 python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
 ```
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these.
+![image](https://user-images.githubusercontent.com/35894891/176416947-b5201edc-f577-4f0c-a025-9f5ef712c4f4.png)
+
 ```
 [
   {
