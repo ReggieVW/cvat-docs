@@ -1,5 +1,5 @@
 # Computer Vision Annotation Tool (CVAT)
-CVAT is free, online, interactive video and image annotation tool for computer vision. It is being used by our team to annotate million of objects with different properties.
+CVAT is free, online, interactive video and image annotation tool for computer vision. It is being used by our team to annotate.
 
 - [User's guide]
     - This section contains [basics information](https://github.com/ReggieVW/cvat-docs/blob/main/manual/basics.md) for CVAT users
