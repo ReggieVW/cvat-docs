@@ -21,6 +21,6 @@ Points are automatically grouped — all points with the same colour are linked 
 
 
 ## Swith on/off the keyframe
-You can switch of the keyframe so intermediate frames will be drawn automatically. Interpolation will be used.
+You can switch off the keyframe so intermediate frames will be drawn automatically. Interpolation will be used.
 ![image](https://user-images.githubusercontent.com/35894891/171388737-3f40bbee-b661-497f-9c81-f97362fcf781.png)
  
