@@ -97,5 +97,5 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 ```
 Click "Upload annotations" and then choose "CVAT" to upload the XML.
 ![image](https://user-images.githubusercontent.com/35894891/176633357-00a4b88c-dd4e-48f8-bc69-cd473d60d78d.png)
-The end result of an automatic annotation is an annotation with bounding boxes with body keypoints.
+The end result is an annotation with person bounding boxes with with an associated action box.
 ![image](https://user-images.githubusercontent.com/35894891/176633566-7c63796f-9502-4031-999a-fed6ff4a8d3c.png)
