@@ -1,6 +1,6 @@
 # Human activity recognition
 
-## Add actions to person bounding box annotations (after annotations body bounding boxes)
+## Add action box to person bounding box annotations (after annotations body bounding boxes)
 
 Remark: This task can only be executed after task [annotation body bounding boxes](https://github.com/ReggieVW/cvat-docs/blob/main/manual/annotate_bbox.md) is executed.
 
@@ -23,7 +23,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 
 ![image](https://user-images.githubusercontent.com/35894891/176632885-0f102585-6407-44e4-b206-879abcf47448.png)
 
-
+```
 [
   {
     "name": "person",
@@ -94,6 +94,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
   }
 ]
 
+```
 Click "Upload annotations" and then choose "CVAT" to upload the XML.
 ![image](https://user-images.githubusercontent.com/35894891/176633357-00a4b88c-dd4e-48f8-bc69-cd473d60d78d.png)
 The end result of an automatic annotation is an annotation with bounding boxes with body keypoints.
