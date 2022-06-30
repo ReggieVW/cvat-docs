@@ -28,7 +28,16 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
   {
     "name": "person",
     "color": "#c06060",
-    "attributes": []
+     "attributes": [
+      {
+        "name": "person_track_id",
+        "input_type": "text",
+        "mutable": false,
+        "values": [
+          ""
+        ]
+      }
+    ]
   },
   {
     "name": "Actions",
@@ -88,6 +97,15 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
           "no action",
           "chest pain",
           "falling down"
+        ]
+      }
+      ,
+      {
+        "name": "person_track_id",
+        "input_type": "text",
+        "mutable": false,
+        "values": [
+          ""
         ]
       }
     ]
