@@ -24,7 +24,7 @@ Points are automatically grouped — all points with the same colour are linked 
 You can switch off the keyframe so intermediate frames will be drawn automatically. Interpolation will be used.
 ![image](https://user-images.githubusercontent.com/35894891/171388737-3f40bbee-b661-497f-9c81-f97362fcf781.png)
 
-Interpolation can be used when there are keypoints of two persons that intermingle and manually correction is to cumbersome. Yuo need to save first to see the results.
+Interpolation can be used when there are keypoints of two persons that intermingle and manually correction is to cumbersome. 
 ![image](https://user-images.githubusercontent.com/35894891/180450542-465abc43-e065-4fde-8572-11272fa56eaf.png)
 
  
