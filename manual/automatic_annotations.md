@@ -76,80 +76,104 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 [
   {
     "name": "left_shoulder",
-    "id": 7,
+    "id": 2,
     "color": "#33ddff",
     "attributes": []
   },
   {
     "name": "right_shoulder",
-    "id": 8,
+    "id": 3,
     "color": "#83e070",
     "attributes": []
   },
   {
     "name": "right_elbow",
-    "id": 9,
+    "id": 4,
     "color": "#ff007c",
     "attributes": []
   },
   {
     "name": "left_wrist",
-    "id": 10,
+    "id": 5,
     "color": "#ff6037",
     "attributes": []
   },
   {
     "name": "right_wrist",
-    "id": 11,
+    "id": 6,
     "color": "#ddff33",
     "attributes": []
   },
   {
     "name": "left_hip",
-    "id": 12,
+    "id": 7,
     "color": "#24b353",
     "attributes": []
   },
   {
     "name": "right_hip",
-    "id": 13,
+    "id": 8,
     "color": "#b83df5",
     "attributes": []
   },
   {
     "name": "left_knee",
-    "id": 14,
+    "id": 9,
     "color": "#66ff66",
     "attributes": []
   },
   {
     "name": "right_knee",
-    "id": 15,
+    "id": 10,
     "color": "#32b7fa",
     "attributes": []
   },
   {
     "name": "left_ankle",
-    "id": 16,
+    "id": 11,
     "color": "#ffcc33",
     "attributes": []
   },
   {
     "name": "right_ankle",
-    "id": 17,
+    "id": 12,
     "color": "#83e070",
     "attributes": []
   },
   {
     "name": "nose",
-    "id": 18,
+    "id": 13,
     "color": "#fafa37",
     "attributes": []
   },
   {
     "name": "left_elbow",
-    "id": 19,
+    "id": 14,
     "color": "#8c78f0",
+    "attributes": []
+  },
+  {
+    "name": "left_eye",
+    "id": 16,
+    "color": "#fe4df2",
+    "attributes": []
+  },
+  {
+    "name": "right_eye",
+    "id": 17,
+    "color": "#17b183",
+    "attributes": []
+  },
+  {
+    "name": "left_ear",
+    "id": 18,
+    "color": "#8c55f2",
+    "attributes": []
+  },
+  {
+    "name": "right_ear",
+    "id": 19,
+    "color": "#2c4706",
     "attributes": []
   },
   {
