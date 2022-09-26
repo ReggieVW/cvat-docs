@@ -67,7 +67,7 @@ python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown
 ```
 Convert the JSON into CVAT XML.
 ```
-python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
+python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --onlyBoxes
 ```
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these.
 ![image](https://user-images.githubusercontent.com/35894891/176416947-b5201edc-f577-4f0c-a025-9f5ef712c4f4.png)
