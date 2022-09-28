@@ -59,7 +59,7 @@ You first want to click "Save". CVAT does not automatically save work. Then clic
 Convert the CVAT XML into JSON. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 
 ```
-python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json --withBodyKeyPoints
+python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json --onlyBoxes
 ```
 Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
