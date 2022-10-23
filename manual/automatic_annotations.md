@@ -76,109 +76,109 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 [
   {
     "name": "left_shoulder",
-    "id": 2,
-    "color": "#33ddff",
+    "id": 157,
+    "color": "#fafa37",
     "attributes": []
   },
   {
     "name": "right_shoulder",
-    "id": 3,
-    "color": "#83e070",
+    "id": 158,
+    "color": "#33ddff",
     "attributes": []
   },
   {
     "name": "right_elbow",
-    "id": 4,
-    "color": "#ff007c",
+    "id": 159,
+    "color": "#33ddff",
     "attributes": []
   },
   {
     "name": "left_wrist",
-    "id": 5,
-    "color": "#ff6037",
+    "id": 160,
+    "color": "#fafa37",
     "attributes": []
   },
   {
     "name": "right_wrist",
-    "id": 6,
-    "color": "#ddff33",
+    "id": 161,
+    "color": "#33ddff",
     "attributes": []
   },
   {
     "name": "left_hip",
-    "id": 7,
+    "id": 162,
     "color": "#24b353",
     "attributes": []
   },
   {
     "name": "right_hip",
-    "id": 8,
-    "color": "#b83df5",
+    "id": 163,
+    "color": "#2a7dd1",
     "attributes": []
   },
   {
     "name": "left_knee",
-    "id": 9,
-    "color": "#66ff66",
+    "id": 164,
+    "color": "#24b353",
     "attributes": []
   },
   {
     "name": "right_knee",
-    "id": 10,
-    "color": "#32b7fa",
+    "id": 165,
+    "color": "#3d3df5",
     "attributes": []
   },
   {
     "name": "left_ankle",
-    "id": 11,
-    "color": "#ffcc33",
+    "id": 166,
+    "color": "#24b353",
     "attributes": []
   },
   {
     "name": "right_ankle",
-    "id": 12,
-    "color": "#83e070",
+    "id": 167,
+    "color": "#3d3df5",
     "attributes": []
   },
   {
     "name": "nose",
-    "id": 13,
-    "color": "#fafa37",
+    "id": 168,
+    "color": "#ff00cc",
     "attributes": []
   },
   {
     "name": "left_elbow",
-    "id": 14,
-    "color": "#8c78f0",
+    "id": 169,
+    "color": "#fafa37",
     "attributes": []
   },
   {
     "name": "left_eye",
-    "id": 16,
-    "color": "#fe4df2",
+    "id": 170,
+    "color": "#ff007c",
     "attributes": []
   },
   {
     "name": "right_eye",
-    "id": 17,
-    "color": "#17b183",
+    "id": 171,
+    "color": "#ff007c",
     "attributes": []
   },
   {
     "name": "left_ear",
-    "id": 18,
-    "color": "#8c55f2",
+    "id": 172,
+    "color": "#ff00cc",
     "attributes": []
   },
   {
     "name": "right_ear",
-    "id": 19,
-    "color": "#2c4706",
+    "id": 173,
+    "color": "#ff355e",
     "attributes": []
   },
   {
     "name": "person",
-    "id": 20,
+    "id": 174,
     "color": "#fa3253",
     "attributes": []
   }
