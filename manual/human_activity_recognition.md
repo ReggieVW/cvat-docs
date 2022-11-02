@@ -2,7 +2,7 @@
 
 ## Add action to person bounding box 
 
-You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these and click on "Done".
+You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these. Notice that the variable "Mutable" is set to true. Mutable attributes may be changed frame by frame. Click on "Done".
 
 ![image](https://user-images.githubusercontent.com/35894891/199530755-a2ae7b7c-0c72-4fc7-ad0d-0c1627a369a8.png)
 
