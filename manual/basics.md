@@ -69,7 +69,7 @@ The tool consists of:
 1.  To navigate the image, use the button on the controls sidebar.
     Another way an image can be moved/shifted is by holding the left mouse button inside
     an area without annotated objects.
-    If the ``Mouse Wheel`` is pressed, then all annotated objects are ignored. Otherwise the
+    If the Mouse Wheel is pressed, then all annotated objects are ignored. Otherwise the
     a highlighted bounding box will be moved instead of the image itself.
 
     ![image](https://user-images.githubusercontent.com/35894891/170959056-e89dfe25-dc99-4e2c-9634-9f58c97c46d1.png)
