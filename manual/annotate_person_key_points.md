@@ -4,7 +4,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 
 
 # Manual annotation with person key points
-<b>Note: This can only be executed after task [automatic annotation person key points](#automatic-annotation-with-person-key-points) is executed.</b>
+<b>Note: This can only be executed after task [automatic annotation person key points](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-key-points) is executed.</b>
 
 You can drag a point and change the position of individual points. Move the points to the desired position. 
 
