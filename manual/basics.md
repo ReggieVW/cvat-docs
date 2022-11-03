@@ -4,7 +4,7 @@
 
 # Creating an annotation task
 ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
-Create an annotation task pressing + button and select Create new task on the tasks page or on the project page.
+Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page or on the project page.
 
 ## Basic configuration
 ![image](https://user-images.githubusercontent.com/35894891/166926907-bcf56a06-0db6-4327-9eec-e2183b895be3.png)
@@ -12,10 +12,10 @@ Create an annotation task pressing + button and select Create new task on the ta
 The name of the task to be created.
 
 ### Projects
-There are two ways of working with labels (available only if the task is not related to the project): Constructor & Raw
+There are two ways of working with labels (available only if the task is not related to the project): ``Constructor`` & ``Raw``
 
 #### The Constructor
-The Constructor is a simple way to add and adjust labels. To add a new label click the Add label button.
+The ``Constructor`` is a simple way to add and adjust labels. To add a new label click the Add label button.
 ![image](https://user-images.githubusercontent.com/35894891/166927448-85f2fbb9-6148-4271-90ba-2ad3446345c6.png)
 
 You can set a name of the label in the Label name field and choose a color for each label.
@@ -33,10 +33,10 @@ b) Choose the type of the attribute:
 * Text — is used when an attribute is entered as a text.
 * Number — is used when an attribute is entered as a number.
 
-c) Checkbox Mutable determines if an attribute would be changed frame to frame.
+c) Checkbox ``Mutable`` determines if an attribute would be changed frame to frame.
 
 #### The Raw
-The Raw is a way of working with labels for an advanced user. Raw presents label data in json format with an option of editing and copying labels as a text. 
+The ``Raw`` is a way of working with labels for an advanced user. Raw presents label data in json format with an option of editing and copying labels as a text. 
 ![image](https://user-images.githubusercontent.com/35894891/170944919-05f7dd28-f493-467f-80b2-67f19796d573.png)
 
 <b>Select files</b>. Press tab My computer to choose some files for annotation from your PC. If you select tab Connected file share you can choose files for annotation from your network. If you select Remote source , you'll see a field where you can enter a list of URLs (one URL per line).
