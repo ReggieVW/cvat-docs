@@ -5,7 +5,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 The result of an automatic annotation is an annotation with bounding boxes and key points.
 
 # Manual annotation with person key points
-Remark: This can only be executed after task [automatic annotation person key points](#automatic-annotation-with-person-key-points) is executed.
+<b>Note: This can only be executed after task [automatic annotation person key points](#automatic-annotation-with-person-key-points) is executed.</b>
 
 You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe.
 
