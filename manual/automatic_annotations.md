@@ -2,7 +2,7 @@
     - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
        - YOLO-v5 and Person reidentification 
        - Tracking using SiamMask
-    - [Automatic annotation person body keypoints](#automatic-annotation-person-keypoints)
+    - [Automatic annotation person key_points](#automatic-annotation-person-key-points)
         - HRNET
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
@@ -40,20 +40,20 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
 
-# Automatic annotation person keypoints 
+# Automatic annotation person key points 
 <b>Note: This task can only be executed after the annotation of the bounding boxes is done. </b>
 
 ## HRNET
 HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating key points based on person bounding boxes
 
-### Add automatic keypoints to person bounding box annotations
-<b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person keypoints with JSON is not available in CVAT.</b>
+### Add automatic key points to person bounding box annotations
+<b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person key points with JSON is not available in CVAT.</b>
 
 First click "Menu", in CVAT. Click "Export task dataset" and choose "COCO".
 
 ![image](https://user-images.githubusercontent.com/35894891/199809798-002be189-31ae-43a4-a2c9-9a338096c828.png)
 
-Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
+Add the automatic generated body key points by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
 python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILE> --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
 ```
@@ -182,7 +182,7 @@ Click "Upload annotations" and then choose "CVAT" to upload the XML.
 ![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
 
 
-The end result of the automatic annotation is an annotation with bounding boxes with body keypoints.
+The end result of the automatic annotation is an annotation with bounding boxes with person key points.
 ![image](https://user-images.githubusercontent.com/35894891/199747631-9efb99cd-6069-4fb1-abb5-2b9c427bdf9c.png)
 
 Click on group to view each person in a different colour.
@@ -191,7 +191,7 @@ Click on group to view each person in a different colour.
 
 ![image](https://user-images.githubusercontent.com/35894891/199750054-90d94047-0329-4454-8787-8c2c1cb29426.png)
 
-Note: The quantity of the persons can be demanding on the processing power. This feature is normally used for only tracking the keypoints of the actors (i.e. person in an action or process)
+Note: The quantity of the persons can be demanding on the processing power. This feature is normally used for only tracking the key points of the actors (i.e. person in an action or process)
 
 
 
