@@ -19,7 +19,7 @@ To use CVAT’s ``AI tools``, you need the corresponding deep learning models to
 To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the ``Actions`` button and choose option ``Automatic annotation`` from the dropdown menu.
 ![image](https://user-images.githubusercontent.com/35894891/199705706-3517dd36-58d0-46e0-98fb-33fd66b579bb.png)
 
-In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels ``person``. You should connect the ``person`` label from the model to the ``person`` label in the task. Click ``Submit`` to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
+In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels ``person``. You should connect the ``person`` label from the model to the ``person`` label in the task. Click ``Annotate`` to begin the automatic annotation process. Supported models, such as ``YOLO-v5``, are suitable only for specific labels (for e.g. person). 
 
 <img src="https://user-images.githubusercontent.com/35894891/176120074-2e87da94-dc6f-4f37-855e-0822cf93ad62.png" width="600" height="400" />
 
