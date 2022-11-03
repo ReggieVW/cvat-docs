@@ -29,7 +29,7 @@ You can combine separate bounding boxes into tracks using the Person reidentific
 
 <img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png"/>
 
-The end result of an automatic annotation is an annotation with person bounding boxes.
+The end result of the automatic annotation is an annotation with person bounding boxes.
 ![image](https://user-images.githubusercontent.com/35894891/199706050-77161b5e-3c6c-495c-ad89-a6d2cc5cb2c1.png)
 
 ## Tracking using SiamMask
