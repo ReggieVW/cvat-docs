@@ -2,7 +2,7 @@
     - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
        - YOLO-v5 and Person reidentification 
        - Tracking using SiamMask
-    - [Automatic annotation person key_points](#automatic-annotation-person-key-points)
+    - [Automatic annotation person key points](#automatic-annotation-person-key-points)
         - HRNET
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
