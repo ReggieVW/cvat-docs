@@ -7,7 +7,7 @@
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
 
-To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
+To use CVAT’s ``AI tools``, you need the corresponding deep learning models to be available in the models’ section. 
 ![image](https://user-images.githubusercontent.com/35894891/199738807-349c4230-6a25-4215-ae4c-0ca1324b3fa6.png)
 
 <b>Note: the default models provided (for e.g., Person reidentification & SiamMask) are often not well trained. Try to use other models instead. </b>
@@ -33,7 +33,7 @@ The end result of the automatic annotation is an annotation with person bounding
 ![image](https://user-images.githubusercontent.com/35894891/199706050-77161b5e-3c6c-495c-ad89-a6d2cc5cb2c1.png)
 
 ## Tracking using SiamMask
-Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame. Labeled objects are automatically tracked when you move to the next frame. 
+Open the task and use ``AI tools`` to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame. Labeled objects are automatically tracked when you move to the next frame. 
 
 <img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png"/>
 
