@@ -1,7 +1,6 @@
 - [User's guide]
     - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
        - YOLO-v5 and Person reidentification 
-   - [Semi automatic annotation person bounding boxes](#semi-automatic-annotation-person-bounding-boxes)
        - Tracking using SiamMask
     - [Automatic annotation person body keypoints](#automatic-annotation-person-body-keypoints)
         - HRNET
@@ -9,15 +8,14 @@
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
 
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
-<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png" width="800" height="400" />
+<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png"/>
 
-# Automatic annotation person bounding boxes
+# Automatic annotation Person bounding boxes
 
 ## YOLO-v5 and Person reidentification
 
-To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the Actions button and choose option Automatic Annotation from the dropdown menu.
-
-<img src="https://user-images.githubusercontent.com/35894891/176123597-e69e69a3-1e85-4656-b7f9-674574b12745.png" width="800" height="400" />
+To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the Actions button and choose option 'Automatic Annotation' from the dropdown menu.
+![image](https://user-images.githubusercontent.com/35894891/199705706-3517dd36-58d0-46e0-98fb-33fd66b579bb.png)
 
 In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels “person”. You should connect the “person” label from the model to the “person” label in the task. Click Submit to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
 
@@ -27,17 +25,15 @@ You can combine separate bounding boxes into tracks using the Person reidentific
 - Model Threshold is a maximum cosine distance between objects’ embeddings.
 - Maximum distance defines a maximum radius that an object can diverge between adjacent frames.
 
-<img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png" width="600" height="400" />
+<img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png"/>
 
-The end result of an automatic annotation is an annotation with separate bounding boxes.
-<img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
-
-# Semi automatic annotation person bounding boxes
+The end result of an automatic annotation is an annotation with person bounding boxes.
+![image](https://user-images.githubusercontent.com/35894891/199706050-77161b5e-3c6c-495c-ad89-a6d2cc5cb2c1.png)
 
 ## Tracking using SiamMask
 Open the task and use AI tools to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame. Labeled objects are automatically tracked when you move to the next frame. 
 
-<img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png" width="600" height="400" />
+<img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png"/>
 
 ![image](https://user-images.githubusercontent.com/35894891/176135289-b39dbab7-17ad-4754-9f96-44ac1eccb634.png)
 
