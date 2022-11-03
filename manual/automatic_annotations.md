@@ -10,6 +10,8 @@ CVAT is also optimized for automatic annotation that can help you speed up the p
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
 <img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png"/>
 
+<b>Note: the default models provided (for e.g., Person reidentification & SiamMask) are often not well trained. Try to use other models instead. </b>
+
 # Automatic annotation Person bounding boxes
 
 ## YOLO-v5 and Person reidentification
