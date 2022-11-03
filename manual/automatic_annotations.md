@@ -2,13 +2,13 @@
     - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
        - YOLO-v5 and Person reidentification 
        - Tracking using SiamMask
-    - [Automatic annotation person body keypoints](#automatic-annotation-person-body-keypoints)
+    - [Automatic annotation person body keypoints](#automatic-annotation-person-keypoints)
         - HRNET
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
 
 To use CVAT’s AI tools, you need the corresponding deep learning models to be available in the models’ section. 
-<img src="https://user-images.githubusercontent.com/35894891/176121952-d8c05dac-a788-4072-8655-8130ad8d4df4.png"/>
+![image](https://user-images.githubusercontent.com/35894891/199738807-349c4230-6a25-4215-ae4c-0ca1324b3fa6.png)
 
 <b>Note: the default models provided (for e.g., Person reidentification & SiamMask) are often not well trained. Try to use other models instead. </b>
 
@@ -51,23 +51,23 @@ HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the 
 
 First click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
-![image](https://user-images.githubusercontent.com/35894891/199734939-558fcec9-43b4-49cc-a522-b2be462abf6e.png)
+![image](https://user-images.githubusercontent.com/35894891/199737119-ac1ca1f5-abd3-45ae-8937-9b7615aeafb1.png)
 
 Convert the CVAT XML into JSON. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 
 ```
-python cvatxml2coco.py --cvat-xml annotations.xml --coco-json coco.json
+python cvatxml2coco.py --cvat-xml annotations.xml --coco-json person_bbox_coco.json
 ```
 Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
-python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILEPATH> --out-video-root vis_results --json-path coco.json
+python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path recording_20220427_00_58_01_10.mp4 --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
 ```
-Convert the JSON into CVAT XML.
+Convert the JSON back into CVAT XML.
 ```
-python coco2cvatxml.py --coco data.json --cvat-xml annotations.xml --withBodyKeyPoints
+python coco2cvatxml.py --coco-json person_keypoints_coco.json --cvat-xml annotations.xml --with-personkeypoints
 ```
-You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these.
-![image](https://user-images.githubusercontent.com/35894891/176416947-b5201edc-f577-4f0c-a025-9f5ef712c4f4.png)
+You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to use. Carefully specify these.
+![image](https://user-images.githubusercontent.com/35894891/199746800-4e78f427-6cd2-44ae-8b08-f82c545558ca.png)
 
 ```
 [
@@ -183,10 +183,17 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 ```
 Click "Upload annotations" and then choose "CVAT" to upload the XML.
 
-![image](https://user-images.githubusercontent.com/35894891/176418506-08208283-7fcc-404d-b73b-54b76ceb4dfb.png)
+![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
 
 
-The end result of an automatic annotation is an annotation with bounding boxes with body keypoints.
-![image](https://user-images.githubusercontent.com/35894891/176415761-ffcf3c86-be88-418a-affa-de74da49c7b5.png)
+The end result of the automatic annotation is an annotation with bounding boxes with body keypoints.
+![image](https://user-images.githubusercontent.com/35894891/199747631-9efb99cd-6069-4fb1-abb5-2b9c427bdf9c.png)
+
+Click on group to view each person in a different colour.
+
+![image](https://user-images.githubusercontent.com/35894891/199750231-fdc97f87-9a78-4f78-babc-50658a31d282.png)
+
+![image](https://user-images.githubusercontent.com/35894891/199750054-90d94047-0329-4454-8787-8c2c1cb29426.png)
+
 
 
