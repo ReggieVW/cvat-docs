@@ -44,7 +44,7 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 <b>Note: This task can only be executed after the annotation of the bounding boxes is done. </b>
 
 ## HRNET
-HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating key points based on person bounding boxes
+HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating person key points based on bounding boxes
 
 ### Add automatic key points to person bounding box annotations
 <b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person key points with JSON is not available in CVAT.</b>
