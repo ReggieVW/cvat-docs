@@ -41,12 +41,12 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 
 
 # Automatic annotation person keypoints 
+<b>Note: This task can only be executed after the annotation of the bounding boxes is done. </b>
 
 ## HRNET
 HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating key points based on person bounding boxes
 
-### Add automatic keypoints to person bounding box annotations (after annotations bounding boxes)
-Remark: This task can only be executed after the annotation of the bounding boxes is done.
+### Add automatic keypoints to person bounding box annotations
 
 You first want to click "Save". CVAT does not automatically save work. Then click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
