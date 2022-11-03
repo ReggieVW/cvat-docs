@@ -6,7 +6,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 # Manual annotation with person key points
 <b>Note: This can only be executed after task [automatic annotation person key points](#automatic-annotation-with-person-key-points) is executed.</b>
 
-You can drag a point and change the position of individual points. Move the point to the desired position, this way you will create a keyframe.
+You can drag a point and change the position of individual points. Move the point to the desired position. You will create a keyframe everytime you make a change.
 
 ## Shape grouping
 Points are automatically grouped — all points with the same colour are linked to a certain person.
