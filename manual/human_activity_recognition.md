@@ -1,6 +1,6 @@
 # Human activity recognition
 
-## Add action to person bounding box 
+## Add activity to person bounding box 
 
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these. Notice that the variable "Mutable" is set to true. Mutable attributes may be changed frame by frame. Click on "Done".
 
@@ -29,5 +29,5 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 ]
 ```
 
-Now you can draw person bounding boxes and specify the action.
+Now you can draw person bounding boxes and specify the activity.
 ![image](https://user-images.githubusercontent.com/35894891/199813921-76f232d4-b9c5-4540-a2e8-a23028d62eb3.png)
