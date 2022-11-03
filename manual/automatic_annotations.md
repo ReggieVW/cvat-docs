@@ -16,16 +16,16 @@ To use CVAT’s AI tools, you need the corresponding deep learning models to be 
 
 ## YOLO-v5 and Person reidentification
 
-To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the Actions button and choose option 'Automatic Annotation' from the dropdown menu.
+To launch automatic annotation, you should open the dashboard and find a task which you want to annotate. Then click the ``Actions`` button and choose option ``Automatic Annotation`` from the dropdown menu.
 ![image](https://user-images.githubusercontent.com/35894891/199705706-3517dd36-58d0-46e0-98fb-33fd66b579bb.png)
 
-In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels “person”. You should connect the “person” label from the model to the “person” label in the task. Click Submit to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
+In the dialog window select a model you need. DL models are created for specific labels. Adjust the labels so that the task labels will correspond to the labels of the DL model. For example, consider a task where you have to annotate labels ``person``. You should connect the ``person`` label from the model to the ``person`` label in the task. Click ``Submit`` to begin the automatic annotation process. Supported models, such as YOLO-v5, are suitable only for specific labels (for e.g. person). 
 
 <img src="https://user-images.githubusercontent.com/35894891/176120074-2e87da94-dc6f-4f37-855e-0822cf93ad62.png" width="600" height="400" />
 
-You can combine separate bounding boxes into tracks using the Person reidentification model. To do this, click on the automatic annotation item in the action menu again and select the model of the ReID type (in this case the Person reidentification model). You can set the following parameters:
-- Model Threshold is a maximum cosine distance between objects’ embeddings.
-- Maximum distance defines a maximum radius that an object can diverge between adjacent frames.
+You can combine separate bounding boxes into tracks using the ``Person reidentification model``. To do this, click on the ``Automatic annotation`` item in the action menu again and select the model of the ReID type (in this case the Person reidentification model). You can set the following parameters:
+- ``Model Threshold`` is a maximum cosine distance between objects’ embeddings.
+- ``Maximum distance`` defines a maximum radius that an object can diverge between adjacent frames.
 
 <img src="https://user-images.githubusercontent.com/35894891/176121237-5a16cbb3-2421-4f46-9440-9108aee75d53.png"/>
 
@@ -49,7 +49,7 @@ HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the 
 ### Add automatic key points to person bounding box annotations
 <b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person key points with JSON is not available in CVAT.</b>
 
-First click "Menu" in CVAT. Click "Export task dataset" and choose "COCO".
+First click ``Menu`` in CVAT. Click ``Export task dataset`` and choose ``COCO``.
 
 ![image](https://user-images.githubusercontent.com/35894891/199809798-002be189-31ae-43a4-a2c9-9a338096c828.png)
 
@@ -177,7 +177,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
   }
 ]
 ```
-Click "Upload annotations" and then choose "CVAT" to upload the XML.
+Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
 
 ![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
 
