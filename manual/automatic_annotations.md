@@ -60,7 +60,7 @@ python cvatxml2coco.py --cvat-xml annotations.xml --coco-json person_bbox_coco.j
 ```
 Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
-python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path recording_20220427_00_58_01_10.mp4 --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
+python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILE> --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
 ```
 Convert the JSON back into CVAT XML.
 ```
