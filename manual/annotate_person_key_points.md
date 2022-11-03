@@ -20,7 +20,7 @@ Interpolation can be a solution when there are key-points of two persons that in
 ![image](https://user-images.githubusercontent.com/35894891/180450542-465abc43-e065-4fde-8572-11272fa56eaf.png)
 
 # Export person key points
-<b>Note: the feature of directly exporting person key points with JSON is not available in CVAT. The JSON file also does not export the group_id which is necessary to group the person keypoints.</b>
+<b>Note: the feature of directly exporting person key points with JSON is not available in CVAT. The JSON file also does not export the group_id which is required to group the person keypoints.</b>
 
 First click on save because CVAT does not automatically saves the changes. Then click "Menu" in CVAT. Click "Export task dataset" and choose "CVAT for video".
 ![image](https://user-images.githubusercontent.com/35894891/199825605-7ba58ca2-a341-4a23-bf56-709243d1f34e.png)
