@@ -195,5 +195,7 @@ Click on group to view each person in a different colour.
 
 ![image](https://user-images.githubusercontent.com/35894891/199750054-90d94047-0329-4454-8787-8c2c1cb29426.png)
 
+Note: The quantities of persons can be demanding on the processing power. This feature is used for only tracking the keypoints of the actors (i.e. person in an action or process)
+
 
 
