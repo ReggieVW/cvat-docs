@@ -47,7 +47,7 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating key points based on person bounding boxes
 
 ### Add automatic keypoints to person bounding box annotations
-<b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention.</b>
+<b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person keypoints with JSON is not available in CVAT</b>
 
 First click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
@@ -66,6 +66,7 @@ Convert the JSON back into CVAT XML.
 ```
 python coco2cvatxml.py --coco-json person_keypoints_coco.json --cvat-xml annotations.xml --with-personkeypoints
 ```
+
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to use. Carefully specify these.
 ![image](https://user-images.githubusercontent.com/35894891/199746800-4e78f427-6cd2-44ae-8b08-f82c545558ca.png)
 
