@@ -8,7 +8,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 You can drag a point and change its position.
 
 ## Shape grouping
-Pre-annotated points are automatically grouped. All points with the same colour are linked to a specific person.
+Pre-annotated person key points are automatically grouped. All points with the same colour are linked to a specific person.
 ![image](https://user-images.githubusercontent.com/35894891/171384083-5e061097-691f-47a4-a970-9bcab0ddb7a9.png)
 
 
