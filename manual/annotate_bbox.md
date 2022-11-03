@@ -2,9 +2,6 @@
 
 See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md).
 
-The result of an automatic annotation is an annotation with separate bounding boxes.
-<img src="https://user-images.githubusercontent.com/35894891/176129602-e34617b8-e628-4809-9487-e9602f09d237.png" width="800" height="400" />
-
 # Manual annotation bounding boxes
 
 ## Track mode 
