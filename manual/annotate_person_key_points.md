@@ -5,7 +5,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 # Manual annotation with person key points
 <b>Note: This can only be executed after task [automatic annotation person key points](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-key-points) is executed.</b>
 
-You can drag a point and change the position of individual points.
+You can drag a point and change its position.
 
 ## Shape grouping
 Pre-annotated points are automatically grouped — all points with the same colour are linked to a certain person.
@@ -13,10 +13,10 @@ Pre-annotated points are automatically grouped — all points with the same colo
 
 
 ## Swith on/off the keyframe
-You can switch off the keyframe so intermediate frames will be drawn automatically. Interpolation will be used.
+You can switch off the keyframe so intermediate frames will be drawn automatically. Interpolation will be used in between two keyframes.
 ![image](https://user-images.githubusercontent.com/35894891/171388737-3f40bbee-b661-497f-9c81-f97362fcf781.png)
 
-Interpolation can be used when there are key-points of two persons that intermingle for a few frames and manually correction is to cumbersome. 
+Interpolation can be a solution when there are key-points of two persons that intermingle for a few frames and manually correction is to cumbersome. 
 ![image](https://user-images.githubusercontent.com/35894891/180450542-465abc43-e065-4fde-8572-11272fa56eaf.png)
 
 # Export person key points
