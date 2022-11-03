@@ -49,7 +49,7 @@ HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the 
 ### Add automatic key points to person bounding box annotations
 <b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person key points with JSON is not available in CVAT.</b>
 
-First click "Menu", in CVAT. Click "Export task dataset" and choose "COCO".
+First click "Menu" in CVAT. Click "Export task dataset" and choose "COCO".
 
 ![image](https://user-images.githubusercontent.com/35894891/199809798-002be189-31ae-43a4-a2c9-9a338096c828.png)
 
