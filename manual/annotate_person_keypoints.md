@@ -1,4 +1,4 @@
-# Automatic annotation with person body keypoints
+# Automatic annotation with person keypoints
 
 See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-keypoints).
 
