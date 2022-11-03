@@ -47,17 +47,16 @@ Open the task and use AI tools to start tracking an object. Draw a bounding box 
 HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the algorithm is built for estimating key points based on person bounding boxes
 
 ### Add automatic keypoints to person bounding box annotations
+<b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention.</b>
 
-You first want to click "Save". CVAT does not automatically save work. Then click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
+First click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
 
-<img src="https://user-images.githubusercontent.com/35894891/176140939-559e8601-32a8-4c90-ad14-616d2e6ebd37.png" width="400" height="400" />
-
-<img src="https://user-images.githubusercontent.com/35894891/176141285-82bc5ad4-ef06-4bef-a43b-c2ca4cc567a3.png" width="600" height="400" />
+![image](https://user-images.githubusercontent.com/35894891/199734939-558fcec9-43b4-49cc-a522-b2be462abf6e.png)
 
 Convert the CVAT XML into JSON. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 
 ```
-python cvatxml2coco.py --cvat-xml annotations.xml --coco coco.json --onlyBoxes
+python cvatxml2coco.py --cvat-xml annotations.xml --coco-json coco.json
 ```
 Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
