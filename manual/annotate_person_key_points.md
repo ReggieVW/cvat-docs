@@ -2,7 +2,6 @@
 
 See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-body-key-points).
 
-The result of an automatic annotation is an annotation with bounding boxes and key points.
 
 # Manual annotation with person key points
 <b>Note: This can only be executed after task [automatic annotation person key points](#automatic-annotation-with-person-key-points) is executed.</b>
