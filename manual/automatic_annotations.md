@@ -49,20 +49,15 @@ HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the 
 ### Add automatic keypoints to person bounding box annotations
 <b>Note:This model is not included yet into the CVAT’s AI tools. So the process requires manual intervention. Also the feature of directly importing person keypoints with JSON is not available in CVAT.</b>
 
-First click "Menu", in CVAT. Click "Export task dataset" and choose "CVAT for video".
+First click "Menu", in CVAT. Click "Export task dataset" and choose "COCO".
 
-![image](https://user-images.githubusercontent.com/35894891/199737119-ac1ca1f5-abd3-45ae-8937-9b7615aeafb1.png)
+![image](https://user-images.githubusercontent.com/35894891/199809798-002be189-31ae-43a4-a2c9-9a338096c828.png)
 
-Convert the CVAT XML into JSON. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
-
-```
-python cvatxml2coco.py --cvat-xml annotations.xml --coco-json person_bbox_coco.json
-```
 Add the automatic generated body keypoints by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
 python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILE> --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
 ```
-Convert the JSON back into CVAT XML.
+Convert the JSON back into CVAT XML. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 ```
 python coco2cvatxml.py --coco-json person_keypoints_coco.json --cvat-xml annotations.xml --with-personkeypoints
 ```
