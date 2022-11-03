@@ -4,7 +4,7 @@
 
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these. Notice that the variable "Mutable" is set to true. Mutable attributes may be changed frame by frame. Click on "Done".
 
-![image](https://user-images.githubusercontent.com/35894891/199530755-a2ae7b7c-0c72-4fc7-ad0d-0c1627a369a8.png)
+![image](https://user-images.githubusercontent.com/35894891/199813407-a01a92f9-dbf1-49af-b118-48e0d5e988cb.png)
 
 ```
 [
@@ -12,7 +12,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
     "name": "person",
     "attributes": [
       {
-        "name": "action",
+        "name": "activity",
         "input_type": "select",
         "mutable": true,
         "values": [
@@ -30,4 +30,4 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
 ```
 
 Now you can draw person bounding boxes and specify the action.
-![image](https://user-images.githubusercontent.com/35894891/199532868-8cd52e27-568e-4ade-ba1f-590068027738.png)
+![image](https://user-images.githubusercontent.com/35894891/199813921-76f232d4-b9c5-4540-a2e8-a23028d62eb3.png)
