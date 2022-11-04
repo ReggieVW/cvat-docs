@@ -1,6 +1,7 @@
-- [User's guide]
-    - [Creating an annotation task](#creating-an-annotation-task)
-    - [Interface of the annotation tool](#interface-of-the-annotation-tool)
+- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs/edit/main/README.md)
+    - This section contains [basics information]
+        - [Creating an annotation task](#creating-an-annotation-task)
+        - [Interface of the annotation tool](#interface-of-the-annotation-tool)
 
 # Creating an annotation task
 ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
