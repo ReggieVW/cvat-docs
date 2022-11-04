@@ -12,7 +12,7 @@ To use CVAT’s AI tools, you need the corresponding deep learning models to be 
 
 <b>Note: the default models provided (for e.g., Person reidentification & SiamMask) are often not well trained. Try to use other models instead. </b>
 
-# Automatic annotation Person bounding boxes
+# Automatic annotation person bounding boxes
 
 ## YOLO-v5 and Person reidentification
 
