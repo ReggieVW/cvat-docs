@@ -6,7 +6,7 @@
 
 # Automatic annotation with person key points
 
-See page [automatic_annotations](../automatic_annotations.md#automatic-annotation-person-key-points).
+See page [automatic_annotations](../../main/automatic_annotations.md#automatic-annotation-person-key-points).
 
 # Manual annotation with person key points
 <b>Note: This can only be executed after task [automatic annotation person key points](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-key-points) is executed.</b>
