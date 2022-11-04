@@ -1,3 +1,8 @@
+- [User's guide]
+    - [Automatic annotation with person key points](#automatic-annotation-with-person-key-points)
+    - [Manual annotation with person key points](#manual-annotation-with-person-key-points)
+    - [Export annotation with person key points](#export-annotation-with-person-key-points)
+
 # Automatic annotation with person key points
 
 See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md#automatic-annotation-person-key-points).
@@ -19,7 +24,7 @@ You can switch off the keyframe so intermediate frames will be drawn automatical
 Interpolation can be a solution when there are key-points of two persons that intermingle for a few frames and manually correction is to cumbersome. 
 ![image](https://user-images.githubusercontent.com/35894891/180450542-465abc43-e065-4fde-8572-11272fa56eaf.png)
 
-# Export person key points
+# Export annotation with person key points
 <b>Note: the feature of directly exporting person key points with JSON is not available in CVAT. The JSON file also does not export the group_id which is required to group the person keypoints.</b>
 
 First click on save because CVAT does not automatically saves the changes. Then click ``Menu`` in CVAT. Click ``Export task dataset`` and choose ``CVAT for video``.
