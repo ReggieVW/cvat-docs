@@ -1,3 +1,5 @@
+- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs/edit/main/README.md)
+
 # Human activity recognition
 
 ## Add activity to person bounding box 
