@@ -22,7 +22,7 @@ Pre-annotated person key points are automatically grouped. All points with the s
 You can switch off the keyframe so intermediate frames will be drawn automatically. Interpolation will be used in between two keyframes.
 ![image](https://user-images.githubusercontent.com/35894891/171388737-3f40bbee-b661-497f-9c81-f97362fcf781.png)
 
-Interpolation can be a solution when there are key-points of two persons that intermingle for a few frames and manually correction is to cumbersome. 
+Interpolation can be a solution when there are key-points of two persons that intermingle for a few frames and manually correction with dragging and moving the points is to cumbersome. 
 ![image](https://user-images.githubusercontent.com/35894891/180450542-465abc43-e065-4fde-8572-11272fa56eaf.png)
 
 # Export annotation with person key points
