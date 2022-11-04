@@ -15,13 +15,13 @@ The name of the task to be created.
 There are two ways of working with labels (available only if the task is not related to the project): ``Constructor`` & ``Raw``
 
 #### The Constructor
-The ``Constructor`` is a simple way to add and adjust labels. To add a new label click the Add label button.
+The ``Constructor`` is a simple way to add and adjust labels. To add a new label click the ``Add label`` button.
 ![image](https://user-images.githubusercontent.com/35894891/166927448-85f2fbb9-6148-4271-90ba-2ad3446345c6.png)
 
 You can set a name of the label in the Label name field and choose a color for each label.
 ![image](https://user-images.githubusercontent.com/35894891/166933036-ef249177-1d44-4d1b-91eb-5aacc5bc3eef.png)
 
-You can add an attribute and set its properties by clicking Add an attribute:
+You can add an attribute and set its properties by clicking ``Add an attribute``:
 ![image](https://user-images.githubusercontent.com/35894891/166932845-ed4a0c97-b2a6-4dab-82a9-cc48291f0353.png)
 
 a) Set the attribute’s name.
