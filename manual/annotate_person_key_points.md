@@ -1,7 +1,8 @@
-- [User's guide]
-    - [Automatic annotation with person key points](#automatic-annotation-with-person-key-points)
-    - [Manual annotation with person key points](#manual-annotation-with-person-key-points)
-    - [Export annotation with person key points](#export-annotation-with-person-key-points)
+- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs/edit/main/README.md)
+    - [Annotation person key points]
+        - [Automatic annotation with person key points](#automatic-annotation-with-person-key-points)
+        - [Manual annotation with person key points](#manual-annotation-with-person-key-points)
+        - [Export annotation with person key points](#export-annotation-with-person-key-points)
 
 # Automatic annotation with person key points
 
