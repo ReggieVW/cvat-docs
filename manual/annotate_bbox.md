@@ -1,4 +1,4 @@
-- [User's guide for the Surv-AI-llance project](../../main/README.md)
+- [User's guide for the Surv-AI-llance project](../README.md)
 
 # Automatic annotation bounding boxes
 
