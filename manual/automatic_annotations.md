@@ -1,4 +1,4 @@
-- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs)
+- [User's guide for the Surv-AI-llance project](../../main/README.md)
     - [Automatic annotation]
         - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
             - YOLO-v5 and Person reidentification 
