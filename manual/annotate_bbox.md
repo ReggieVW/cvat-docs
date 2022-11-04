@@ -37,7 +37,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 
 -   If the object isn't visible on a couple of frames and then appears again,
     you can use the ``Merge`` feature to merge several individual tracks
-    into one. Click Merge button or press M to apply changes.
+    into one. Click ``Merge`` button or press ``M`` to apply changes.
 
     ![image](https://user-images.githubusercontent.com/35894891/170968838-ef104d4f-f749-4703-9ff5-84fce598caf5.png)
     
