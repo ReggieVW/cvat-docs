@@ -53,7 +53,7 @@ The tool consists of:
 - ``Objects sidebar`` — contains label filter, two lists:
   objects (on the frame) and labels (of objects on the frame) and appearance settings.
   
-![image](https://user-images.githubusercontent.com/35894891/170956833-7f249399-62db-4334-b072-543f8731b265.png)
+![image](https://user-images.githubusercontent.com/35894891/199857672-946d4a4b-92c8-470b-b50f-83c909560631.png)
 
 ## Basic navigation
 
