@@ -1,4 +1,4 @@
-- [User's guide for the Surv-AI-llance project](../../main/README.md)
+- [User's guide for the Surv-AI-llance project](../README.md)
     - [Annotation person key points]
         - [Automatic annotation with person key points](#automatic-annotation-with-person-key-points)
         - [Manual annotation with person key points](#manual-annotation-with-person-key-points)
