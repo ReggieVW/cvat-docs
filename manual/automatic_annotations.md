@@ -187,7 +187,7 @@ To upload the annotations, you can click the ``Actions`` button and choose optio
 The end result of the automatic annotation is an annotation with bounding boxes and person key points.
 ![image](https://user-images.githubusercontent.com/35894891/199747631-9efb99cd-6069-4fb1-abb5-2b9c427bdf9c.png)
 
-Click on group to view each person in a different colour.
+Click on ``Group`` to view each person in a different colour.
 
 ![image](https://user-images.githubusercontent.com/35894891/199750231-fdc97f87-9a78-4f78-babc-50658a31d282.png)
 
