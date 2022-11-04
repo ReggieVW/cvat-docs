@@ -62,7 +62,8 @@ Convert the JSON back into CVAT XML. Further information about the conversion to
 python coco2cvatxml.py --coco-json person_keypoints_coco.json --cvat-xml annotations.xml --with-personkeypoints
 ```
 
-You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to use. Carefully specify these.
+You can to specify the class labels of the objects that you would like to use. Carefully specify these.
+
 ![image](https://user-images.githubusercontent.com/35894891/199746800-4e78f427-6cd2-44ae-8b08-f82c545558ca.png)
 
 ```
@@ -177,7 +178,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
   }
 ]
 ```
-Open the task. Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
+Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
 
 ![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
 
