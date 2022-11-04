@@ -178,9 +178,10 @@ You can to specify the class labels of the objects that you would like to use. C
   }
 ]
 ```
-Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
+To upload the annotations, you can click the ``Actions`` button and choose option ``Upload annotations`` from the dropdown menu. Then choose ``CVAT`` to upload the XML.
 
-![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
+![image](https://user-images.githubusercontent.com/35894891/199859883-2c424f04-3cb7-4fd7-ae63-5278f0f6a4f5.png)
+
 
 
 The end result of the automatic annotation is an annotation with bounding boxes with person key points.
