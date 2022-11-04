@@ -4,7 +4,7 @@
 
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class labels of the objects that you would like to detect. Carefully specify these. Notice that the variable "Mutable" is set to true. mutable attributes may be changed frame by frame. Click on "Done".
 
-![image](https://user-images.githubusercontent.com/35894891/199813407-a01a92f9-dbf1-49af-b118-48e0d5e988cb.png)
+![image](https://user-images.githubusercontent.com/35894891/199858465-8ed36a86-d373-4401-97dd-b752c2cbd54c.png)
 
 ```
 [
