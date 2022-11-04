@@ -1,9 +1,10 @@
-- [User's guide]
-    - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
-       - YOLO-v5 and Person reidentification 
-       - Tracking using SiamMask
-    - [Automatic annotation person key points](#automatic-annotation-person-key-points)
-        - HRNET
+- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs/edit/main/README.md)
+    - [Automatic annotation]
+        - [Automatic annotation person bounding boxes](#automatic-annotation-person-bounding-boxes)
+            - YOLO-v5 and Person reidentification 
+            - Tracking using SiamMask
+        - [Automatic annotation person key points](#automatic-annotation-person-key-points)
+            - HRNET
 
 CVAT is also optimized for automatic annotation that can help you speed up the process significantly. 
 
