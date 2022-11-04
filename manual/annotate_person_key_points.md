@@ -1,4 +1,4 @@
-- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs)
+- [User's guide for the Surv-AI-llance project](../../main/README.md)
     - [Annotation person key points]
         - [Automatic annotation with person key points](#automatic-annotation-with-person-key-points)
         - [Manual annotation with person key points](#manual-annotation-with-person-key-points)
