@@ -1,4 +1,4 @@
-- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs)
+- [User's guide for the Surv-AI-llance project](../../cvat-docs)
     - This section contains [basics information]
         - [Creating an annotation task](#creating-an-annotation-task)
         - [Interface of the annotation tool](#interface-of-the-annotation-tool)
