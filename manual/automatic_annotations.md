@@ -177,7 +177,7 @@ You can launch a new task in CVAT and drag your video in for labeling. You are a
   }
 ]
 ```
-Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
+Open the task. Click ``Upload annotations`` and then choose ``CVAT`` to upload the XML.
 
 ![image](https://user-images.githubusercontent.com/35894891/199748628-e78d275a-19e1-48ee-a70a-85118df59c70.png)
 
