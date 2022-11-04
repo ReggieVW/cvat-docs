@@ -1,3 +1,5 @@
+- [User's guide for the Surv-AI-llance project](https://github.com/ReggieVW/cvat-docs/edit/main/README.md)
+
 # Automatic annotation bounding boxes
 
 See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main/manual/automatic_annotations.md).
