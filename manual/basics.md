@@ -34,6 +34,10 @@ Link your task to a project
 Only availabe when the project is not linked to a project.
 See section [Labels](./basics.md#labels-2)
 
+### Select files
+Press tab ``My computer`` to choose some files for annotation from your PC. If you select tab ``Connected file share`` you can choose files for annotation from your network. If you select ``Remote source``, you'll see a field where you can enter a list of URLs (one URL per line).
+![image](https://user-images.githubusercontent.com/35894891/170945341-c233d305-aa03-4a36-a1e3-d0eae481b7a6.png)
+
 # Labels
 There are two ways of working with labels: ``Constructor`` & ``Raw``
 
@@ -61,9 +65,6 @@ c) Checkbox ``Mutable`` determines if an attribute would be changed frame to fra
 #### The Raw
 The ``Raw`` is a way of working with labels for an advanced user. Raw presents label data in json format with an option of editing and copying labels as a text. 
 ![image](https://user-images.githubusercontent.com/35894891/170944919-05f7dd28-f493-467f-80b2-67f19796d573.png)
-
-<b>Select files</b>. Press tab ``My computer`` to choose some files for annotation from your PC. If you select tab ``Connected file share`` you can choose files for annotation from your network. If you select ``Remote source``, you'll see a field where you can enter a list of URLs (one URL per line).
-![image](https://user-images.githubusercontent.com/35894891/170945341-c233d305-aa03-4a36-a1e3-d0eae481b7a6.png)
 
 
 # Interface of the annotation tool
