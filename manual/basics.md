@@ -18,6 +18,8 @@ The name of the project to be created.
 See section [Labels](./basics.md#labels-2)
 
 # Creating an annotation task
+You can create a task on the task page or on the project page.
+
 - Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page.
  ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
 
