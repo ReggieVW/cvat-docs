@@ -18,8 +18,13 @@ The name of the project to be created.
 See section [Labels](./basics.md#labels-2)
 
 # Creating an annotation task
-![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
-Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page.
+- Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page.
+ ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
+
+- Create an annotation task pressing ``+`` on the project page.
+![image](https://user-images.githubusercontent.com/35894891/200164384-ee70d8d6-1344-4fa7-b804-3119e57b8a6d.png)
+
+
 
 ## Task configuration
 ![image](https://user-images.githubusercontent.com/35894891/166926907-bcf56a06-0db6-4327-9eec-e2183b895be3.png)
