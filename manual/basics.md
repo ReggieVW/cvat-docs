@@ -1,5 +1,6 @@
 - [User's guide for the Surv-AI-llance project](../README.md)
     - This section contains [basics information]
+        - [Creating a project](#creating-a-project)
         - [Creating an annotation task](#creating-an-annotation-task)
         - [Interface of the annotation tool](#interface-of-the-annotation-tool)
 
