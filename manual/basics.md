@@ -5,6 +5,7 @@
         - [Interface of the annotation tool](#interface-of-the-annotation-tool)
 
 # Creating a project
+Go to the project page.
 ![image](https://user-images.githubusercontent.com/35894891/200163016-94e648ed-6eaa-4e82-8bea-0d5877faba83.png)
 Create a project pressing ``+`` button and select ``Create new project`` on the project page.
 
