@@ -19,8 +19,8 @@ The name of the project to be created.
 ### Name
 The name of the task to be created.
 
-### Labels
-There are two ways of working with labels (available only if the task is not related to the project): ``Constructor`` & ``Raw``
+# Labels
+There are two ways of working with labels: ``Constructor`` & ``Raw``
 
 #### The Constructor
 The ``Constructor`` is a simple way to add and adjust labels. To add a new label click the ``Add label`` button.
