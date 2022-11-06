@@ -36,7 +36,7 @@ You can create a task on the task page or on the project page.
 The name of the task to be created.
 
 ### Project selection
-Link your task to a project
+Link your task to a project (optional)
 
 ### Labels
 Only availabe when the project is not linked to a project.
