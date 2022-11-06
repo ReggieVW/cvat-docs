@@ -14,7 +14,7 @@ The name of the project to be created.
 ![image](https://user-images.githubusercontent.com/35894891/200163191-48c991db-a3e6-4a8a-9dcc-660d3002d438.png)
 
 ### Labels
-- [Labels](###Labels)
+- [Labels](./basics.md#labels-2)
 
 # Creating an annotation task
 ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
@@ -27,7 +27,7 @@ Create an annotation task pressing ``+`` button and select ``Create new task`` o
 The name of the task to be created.
 
 ### Labels
-- [Labels](###Labels)
+- [Labels](./basics.md#labels-2)
 
 # Labels
 There are two ways of working with labels: ``Constructor`` & ``Raw``
