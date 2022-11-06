@@ -3,9 +3,16 @@
         - [Creating an annotation task](#creating-an-annotation-task)
         - [Interface of the annotation tool](#interface-of-the-annotation-tool)
 
+# Creating a project
+![image](https://user-images.githubusercontent.com/35894891/200163016-94e648ed-6eaa-4e82-8bea-0d5877faba83.png)
+Create a project pressing ``+`` button and select ``Create new project`` on the project page.
+
 # Creating an annotation task
 ![image](https://user-images.githubusercontent.com/35894891/166926067-d6a6dc51-a73a-4ba3-bfea-e55b0e0a7bbe.png)
-Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page or on the project page.
+Create an annotation task pressing ``+`` button and select ``Create new task`` on the tasks page.
+
+### Name
+The name of the project to be created.
 
 ## Basic configuration
 ![image](https://user-images.githubusercontent.com/35894891/166926907-bcf56a06-0db6-4327-9eec-e2183b895be3.png)
