@@ -7,11 +7,11 @@
 ![image](https://user-images.githubusercontent.com/35894891/200163016-94e648ed-6eaa-4e82-8bea-0d5877faba83.png)
 Create a project pressing ``+`` button and select ``Create new project`` on the project page.
 
-### Name
-The name of the project to be created.
-
 ## Project configuration
 ![image](https://user-images.githubusercontent.com/35894891/200163191-48c991db-a3e6-4a8a-9dcc-660d3002d438.png)
+
+### Name
+The name of the project to be created.
 
 ### Labels
 - [Labels](./basics.md#labels-2)
@@ -26,7 +26,11 @@ Create an annotation task pressing ``+`` button and select ``Create new task`` o
 ### Name
 The name of the task to be created.
 
+### Project selection
+Link your task to a project
+
 ### Labels
+Only availabe when the project is not linked to a project.
 - [Labels](./basics.md#labels-2)
 
 # Labels
