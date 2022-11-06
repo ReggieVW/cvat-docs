@@ -19,7 +19,7 @@ The name of the project to be created.
 ### Name
 The name of the task to be created.
 
-### Projects
+### Labels
 There are two ways of working with labels (available only if the task is not related to the project): ``Constructor`` & ``Raw``
 
 #### The Constructor
