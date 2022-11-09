@@ -72,7 +72,7 @@ b) Choose the type of the attribute:
 c) Checkbox ``Mutable`` determines if an attribute would be changed frame to frame.
 
 #### The Raw
-The ``Raw`` is a way of working with labels for an advanced user. Raw presents label data in json format with an option of editing and copying labels as a text. 
+The ``Raw`` is a way of working with labels for an advanced user. Raw presents label data in json format with an option of editing and copying labels as text. 
 ![image](https://user-images.githubusercontent.com/35894891/170944919-05f7dd28-f493-467f-80b2-67f19796d573.png)
 
 
