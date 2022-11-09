@@ -44,7 +44,7 @@ Only availabe when the project is not linked to a project.
 See section [Labels](./basics.md#labels-2)
 
 ### Select files
-Press tab ``My computer`` to choose some files for annotation from your PC. If you select tab ``Connected file share`` you can choose files for annotation from your network. If you select ``Remote source``, you'll see a field where you can enter a list of URLs (one URL per line).
+Press tab ``My computer`` to choose some files for annotation from your PC. If you select tab ``Connected file share`` you can choose files for annotation from your network. If you select ``Remote source``, you'll see a field where you can enter a list of URLs (one URL per line). You can also select a ``Cloud storage``.
 ![image](https://user-images.githubusercontent.com/35894891/170945341-c233d305-aa03-4a36-a1e3-d0eae481b7a6.png)
 
 # Labels
