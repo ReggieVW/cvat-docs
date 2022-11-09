@@ -47,8 +47,9 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 
     ![image](https://user-images.githubusercontent.com/35894891/200807258-f958499b-a743-4899-92c0-933a708e5ed7.png)
     
-    This function is used when two tracks intermingle with each other. To solve this you need to split both tracks and afterwards merge them back so each person will       have its own track.
-    
+    This function is used when two tracks intermingle with each other. 
     ![image](https://user-images.githubusercontent.com/35894891/200829668-60d389bd-2726-4b68-bbba-9ddf81d93988.png)
+    
+    To solve this you need to split both tracks and afterwards merge them to the corresponding track of each person. So each person independently will have its own         track.
 
     
