@@ -30,7 +30,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 - If the object starts to change its position, you need to modify the rectangle where it happens.
       <b>It isn't necessary to change the rectangle on each frame</b>, simply update several keyframes
       and the frames between them will be interpolated automatically.
-     ![image](https://user-images.githubusercontent.com/35894891/171150304-ca11d723-66f0-479f-b9dd-d21476c6924f.png)
+     ![image](https://user-images.githubusercontent.com/35894891/200810100-aec1785c-a480-4f5e-aa20-768c6bbcddde.png)
 
 -   When the annotated object disappears or becomes too small, you need to
     finish the track. You have to choose ``Outside Property``, shortcut ``O``.
