@@ -115,7 +115,7 @@ The tool consists of:
 
 Many UI elements have shortcut hints. Put your pointer to a required element to see it.
 
-![](static/documentation/images/image075.jpg)
+![image](https://user-images.githubusercontent.com/35894891/200821448-033673a0-1838-464b-a9f3-97eea0b055c8.png)
 
 | Shortcut                       | Common                                                                          |
 |--------------------------------|---------------------------------------------------------------------------------|
