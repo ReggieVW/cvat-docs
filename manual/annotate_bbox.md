@@ -32,7 +32,7 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
       and the frames between them will be interpolated automatically.
      ![image](https://user-images.githubusercontent.com/35894891/200810100-aec1785c-a480-4f5e-aa20-768c6bbcddde.png)
 
--   When the annotated object disappears or becomes too small, you need to
+-   When the annotated object goes out of the frame, disappears or becomes too small, you need to
     finish the track. You have to choose ``Outside Property``, shortcut ``O``.
     
     ![image](https://user-images.githubusercontent.com/35894891/171151873-8cbb49a2-48bf-43fd-8501-9b146c90d6ee.png)
