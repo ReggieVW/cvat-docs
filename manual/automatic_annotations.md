@@ -33,7 +33,7 @@ You can combine separate bounding boxes into tracks using the ``Person reidentif
 The end result of the automatic annotation is an annotation with tracked person bounding boxes.
 ![image](https://user-images.githubusercontent.com/35894891/199706050-77161b5e-3c6c-495c-ad89-a6d2cc5cb2c1.png)
 
-## Tracking using SiamMask
+## Tracking using SiamMask or TransT
 Open the task and use ``AI tools`` to start tracking an object. Draw a bounding box around an object, and sequentially switch through the frame. Labeled objects are automatically tracked when you move to the next frame. 
 
 <img src="https://user-images.githubusercontent.com/35894891/176134413-011a325d-f398-4890-9fd8-9aaeef26c1cf.png"/>
