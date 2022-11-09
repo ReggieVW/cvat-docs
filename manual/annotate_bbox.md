@@ -43,3 +43,8 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 
     ![image](https://user-images.githubusercontent.com/35894891/170968838-ef104d4f-f749-4703-9ff5-84fce598caf5.png)
     
+-   You can use the Split function to split one track into two tracks.
+
+    ![image](https://user-images.githubusercontent.com/35894891/200807258-f958499b-a743-4899-92c0-933a708e5ed7.png)
+
+    
