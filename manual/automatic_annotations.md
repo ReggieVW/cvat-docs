@@ -52,7 +52,7 @@ HRNET is a human pose estimation algorithm. HRNet uses the top-down method, the 
 
 First click ``Menu`` in CVAT. Click ``Export task dataset`` and choose ``COCO``.
 
-![image](https://user-images.githubusercontent.com/35894891/200915443-34fc5071-6736-4b70-b1dd-2286ec2dce56.png)
+![image](https://user-images.githubusercontent.com/35894891/200915652-80348a92-8087-47d3-bcc4-b5e4d1981a43.png)
 
 Add the automatic generated body key points by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
