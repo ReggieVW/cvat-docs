@@ -46,5 +46,9 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
 -   You can use the Split function to split one track into two tracks.
 
     ![image](https://user-images.githubusercontent.com/35894891/200807258-f958499b-a743-4899-92c0-933a708e5ed7.png)
+    
+    This function is used when two tracks intermingle with each other. To solve this you need to split both tracks and afterwards merge them back so each person will       have its own track.
+    
+    ![image](https://user-images.githubusercontent.com/35894891/200829668-60d389bd-2726-4b68-bbba-9ddf81d93988.png)
 
     
