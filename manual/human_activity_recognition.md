@@ -51,6 +51,7 @@ python coco2cvatxml.py --coco-json coco.json --cvat-xml annotations.xml --with-d
 ```
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class ``labels`` of the objects that you would like to detect. 
 ![image](https://user-images.githubusercontent.com/35894891/201473264-f5ebfbb7-125c-43e0-920f-98515747d573.png)
+You can to specify the class labels of the objects that you would like to use. Carefully specify these using the ``Raw`` option. 
 
 ```
 [
