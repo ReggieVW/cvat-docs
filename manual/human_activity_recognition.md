@@ -47,7 +47,7 @@ First click Menu in CVAT. Click Export task dataset and choose COCO.
 ![image](https://user-images.githubusercontent.com/35894891/201472815-4b160644-cb7a-46a4-87f7-fd437d86ccdd.png)
 Add the dummy objects by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose
 ```
-python coco2cvatxml.py --coco-json coco.json --cvat-xml annotations.xml --with-dummyaction
+python coco2cvatxml.py --coco-json coco.json --cvat-xml annotations.xml --with-dummyobject-activity
 ```
 You can launch a new task in CVAT and drag your video in for labeling. You are also prompted to specify the class ``labels`` of the objects that you would like to detect. 
 ![image](https://user-images.githubusercontent.com/35894891/201473264-f5ebfbb7-125c-43e0-920f-98515747d573.png)
@@ -112,7 +112,7 @@ The end result of adding the ``Dummy`` object is an annotation with an activity 
 Note: To have the results in COCO format and not loose the activity annotations you have to first export to CVAT and then convert to COCO using the following script.
 
 ```
-python cvatxml2coco.py --cvat-xml annotations.xml --coco-json coco.json --with-dummyaction
+python cvatxml2coco.py --cvat-xml annotations.xml --coco-json coco.json --with-dummyobject-activity
 ```
 
 
