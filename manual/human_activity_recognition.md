@@ -45,7 +45,7 @@ There is a bypass available to decouple the keyframe of the attribute activity f
 
 First click Menu in CVAT. Click Export task dataset and choose COCO.
 ![image](https://user-images.githubusercontent.com/35894891/201472815-4b160644-cb7a-46a4-87f7-fd437d86ccdd.png)
-Add the dummy objects by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose
+Add the dummy objects by executing following script. Further information about the tool and installation https://github.com/ReggieVW/cvat-utils
 ```
 python coco2cvatxml.py --coco-json coco.json --cvat-xml annotations.xml --with-dummyobject-activity
 ```
