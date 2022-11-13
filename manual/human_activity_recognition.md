@@ -41,7 +41,7 @@ Now you can draw person bounding boxes and specify the activity.
 ![image](https://user-images.githubusercontent.com/35894891/199813921-76f232d4-b9c5-4540-a2e8-a23028d62eb3.png)
 
 ## Add activity as dummy object to a person bounding box
-There is a bypass available to decouple the keyframe of the attribute activity from the keyframe of the person bounding box. This is done after the creation of the bounding boxes.
+There is a bypass available to decouple the keyframe of the attribute activity from the keyframe of the person bounding box. <b>This is done after the creation of all the bounding boxes </b>.
 
 First click Menu in CVAT. Click Export task dataset and choose COCO.
 ![image](https://user-images.githubusercontent.com/35894891/201472815-4b160644-cb7a-46a4-87f7-fd437d86ccdd.png)
