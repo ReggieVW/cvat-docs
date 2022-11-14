@@ -1,4 +1,7 @@
-- [User's guide for the Surv-AI-llance project](../README.md)
+- [User's guide for the Surv-AI-llance project](../README.md)</br>
+  - [Human activity recognition]</br>
+        - [Add activity to person bounding box](#add-activity-to-person-bounding-box)</br>
+        - [Add activity as dummy object to a person bounding box](#add-activity-as-dummy-object-to-a-person-bounding-box)</br>
 
 # Human activity recognition
 
