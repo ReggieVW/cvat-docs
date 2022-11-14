@@ -50,6 +50,6 @@ See page [automatic_annotations](https://github.com/ReggieVW/cvat-docs/blob/main
     This function can be used when two tracks of two different persons gets mixed up with each other. 
     ![image](https://user-images.githubusercontent.com/35894891/200926996-169b2b3f-4bb4-4bf0-99fd-46c8ce94e31a.png)
     
-    To solve this you need to split both tracks and afterwards merge each of them to the corresponding track of each person. So each person independently will have its     own track.
+    To solve this you need to split both tracks and afterwards merge each of them to the corresponding track of the person. So each person independently will have its     own track.
 
     
