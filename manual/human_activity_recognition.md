@@ -64,7 +64,7 @@ You can to specify the class labels of the objects that you would like to use. C
         "name": "orig_track_id",
         "input_type": "text",
         "mutable": false,
-        "values": []
+        "values": [""]
       }
     ]
   },
@@ -91,7 +91,7 @@ You can to specify the class labels of the objects that you would like to use. C
         "name": "orig_track_id",
         "input_type": "text",
         "mutable": false,
-        "values": []
+        "values": [""]
       }
     ]
   }
