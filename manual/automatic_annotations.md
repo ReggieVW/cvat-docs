@@ -60,7 +60,7 @@ python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown
 ```
 Convert the JSON back into CVAT XML. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 ```
-python coco2cvatxml.py --coco-json person_keypoints_coco.json --cvat-xml annotations.xml --with-personkeypoints
+python coco2cvatxml.py --coco-json <FILE> --cvat-xml <FILE> --with-personkeypoints
 ```
 
 You can to specify the class labels of the objects that you would like to use. Carefully specify these.
