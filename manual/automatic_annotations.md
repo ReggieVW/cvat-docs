@@ -71,111 +71,145 @@ You can to specify the class labels of the objects that you would like to use. C
 [
   {
     "name": "left_shoulder",
-    "id": 157,
+    "id": 294,
     "color": "#fafa37",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_shoulder",
-    "id": 158,
+    "id": 295,
     "color": "#33ddff",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_elbow",
-    "id": 159,
+    "id": 296,
     "color": "#33ddff",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_wrist",
-    "id": 160,
+    "id": 297,
     "color": "#fafa37",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_wrist",
-    "id": 161,
+    "id": 298,
     "color": "#33ddff",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_hip",
-    "id": 162,
+    "id": 299,
     "color": "#24b353",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_hip",
-    "id": 163,
+    "id": 300,
     "color": "#2a7dd1",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_knee",
-    "id": 164,
+    "id": 301,
     "color": "#24b353",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_knee",
-    "id": 165,
+    "id": 302,
     "color": "#3d3df5",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_ankle",
-    "id": 166,
+    "id": 303,
     "color": "#24b353",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_ankle",
-    "id": 167,
+    "id": 304,
     "color": "#3d3df5",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "nose",
-    "id": 168,
+    "id": 305,
     "color": "#ff00cc",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_elbow",
-    "id": 169,
+    "id": 306,
     "color": "#fafa37",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_eye",
-    "id": 170,
+    "id": 307,
     "color": "#ff007c",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_eye",
-    "id": 171,
+    "id": 308,
     "color": "#ff007c",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "left_ear",
-    "id": 172,
+    "id": 309,
     "color": "#ff00cc",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "right_ear",
-    "id": 173,
+    "id": 310,
     "color": "#ff355e",
+    "type": "any",
     "attributes": []
   },
   {
     "name": "person",
-    "id": 174,
+    "id": 311,
     "color": "#fa3253",
-    "attributes": []
+    "type": "any",
+    "attributes": [
+      {
+        "id": 26,
+        "name": "activity",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "no action",
+          "Fainting and falling",
+          "Kicking other person",
+          "Punching other person",
+          "Pushing other person",
+          "Throwing objects"
+        ],
+        "default_value": "no action"
+      }
+    ]
   }
 ]
 ```
