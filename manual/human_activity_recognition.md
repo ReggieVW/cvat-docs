@@ -112,7 +112,7 @@ The end result of adding the ``Dummy`` object is an annotation with an activity 
 
 ![image](https://user-images.githubusercontent.com/35894891/201474221-117fcc36-e03e-442d-a8a2-fd4b31c18677.png)
 
-Note: To have the results in COCO format and not loose the activity annotations you have to first export to CVAT and then convert to COCO using the following script.
+Note: To have the results in COCO format and not loose the activity annotations you have to first export to CVAT XML and then convert to COCO using the following script.
 
 ```
 python cvatxml2coco.py --cvat-xml annotations.xml --coco-json coco.json --with-dummyobject-activity
