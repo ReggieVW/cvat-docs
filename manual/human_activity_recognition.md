@@ -4,6 +4,7 @@
         - [Add activity as dummy object to a person bounding box](#add-activity-as-dummy-object-to-a-person-bounding-box)</br>
 
 # Human activity recognition
+You can attach an activity directly as an attribute to the person bounding bounding box, or by creating a dummy object and attach by group ID.
 
 ## Add activity to person bounding box 
 
