@@ -56,7 +56,7 @@ First click ``Menu`` in CVAT. Click ``Export task dataset`` and choose ``COCO``.
 
 Add the automatic generated body key points by executing following script. Further information about the tool and installation https://github.com/ReggieVW/mmpose 
 ```
-python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILE> --out-video-root vis_results --input-json-path person_bbox_coco.json --output-json-path person_keypoints_coco.json
+python top_down_pose_tracking_input.py configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_384x288_udp.py https://download.openmmlab.com/mmpose/top_down/udp/hrnet_w48_coco_384x288_udp-0f89c63e_20210223.pth --video-path <FILE> --out-video-root vis_results --input-json-path <FILE> --output-json-path <FILE>
 ```
 Convert the JSON back into CVAT XML. Further information about the conversion tool and installation https://github.com/ReggieVW/cvat-utils
 ```
