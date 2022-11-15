@@ -113,7 +113,7 @@ The end result of adding the ``Dummy`` object is an annotation with an activity 
 
 ![image](https://user-images.githubusercontent.com/35894891/201474221-117fcc36-e03e-442d-a8a2-fd4b31c18677.png)
 
-If you want to undo an action it is better to set the ``keyframe`` to ``false``. CVAT is not a HAR tool and it takes some time to get used to. 
+If you want to undo an action it is better to set the ``keyframe`` to ``false``. CVAT is not a HAR tool and it takes some time to get used to it. 
 ![image](https://user-images.githubusercontent.com/35894891/202004340-485a6737-a6b3-4bcc-a795-103444e0c3fb.png)
 
 Note: To have the results in COCO format and not loose the activity annotations you have to first export to CVAT XML and then convert to COCO using the following script.
